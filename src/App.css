@@ -1,0 +1,12 @@
+/* Xóa CSS mặc định để không ảnh hưởng đến thẻ canvas của game */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #242424;
+  color: white;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+}
